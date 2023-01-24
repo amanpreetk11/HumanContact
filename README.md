@@ -30,7 +30,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 5. Run php artisan config:clear to reflect .env changes.
 6. Run npm install.
 7. Execute the two commands for application to run:
-   php artisan serve
+   php artisan serve &
    npm run dev
 
 (If manifest.json file is not found at app/public/build/ then first run npm run build & then again run npm run dev along with php artisan serve.)
