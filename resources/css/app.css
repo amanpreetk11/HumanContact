@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+thead,
+tbody {
+    height: 50px;
+}
+thead {
+    border-bottom: 1px solid #000;
+}
+tbody td {
+    text-align: center;
+}
+tbody tr td {
+    padding: 10px 0;
+}
+.input {
+    margin-bottom: 10px;
+}
